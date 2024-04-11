@@ -1,0 +1,63 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar .top h2 {
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.header .navbar .bottom .card {
+    position: relative;
+}
+
+.header .navbar .bottom .card h3 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.button{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button a {
+    border-radius: 10px;
+    background: rgb(30, 136, 229);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 20px;
+}
